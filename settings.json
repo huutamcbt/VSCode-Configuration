@@ -1,0 +1,58 @@
+{
+    "workbench.colorTheme": "Tokyo Night Storm",
+    "window.zoomLevel": 1,
+    "terminal.integrated.fontFamily": "JetBrainsMonoNL NFM",
+    "workbench.colorCustomizations": {
+        "[Tokyo Night Storm]": { // or "[Tokyo Night Storm]"
+            "editorCodeLens.foreground": "#7982a9", // Preferred hex color
+        },
+    },
+    "editor.tokenColorCustomizations": {
+        "[Tokyo Night Storm]": {
+            "textMateRules": [
+                // {
+                //     "scope": [
+                //         "meta.method-call",
+                //     ],
+                //     "settings": {
+                //         "foreground": "#c5a444"
+                //     }
+                // },
+                {
+                    "scope": [
+                        "variable.other.object.property",
+                    ],
+                    "settings": {
+                        "foreground": "#4dcd8f"
+                    }
+                },
+                {
+                    "scope" :"constant.other",
+                    "settings": {
+                        "foreground": "#e3da60",
+                    }
+                },
+                {
+                    "scope": "variable",
+                    "settings": {
+                        "foreground": "#31cfb2",
+                    }
+                },
+                {
+                    "scope": "storage.type",
+                    "settings": {
+                        "foreground": "#5db0ef",
+                    }
+                },
+                {
+                    "scope": "storage.other",
+                    "settings": {
+                        "foreground": "#ef5d5d",
+                    }
+                }
+              
+            ],
+        }
+    },
+    "workbench.iconTheme": "material-icon-theme",
+}
