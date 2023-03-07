@@ -4,4 +4,14 @@
         "key": "ctrl+alt+backspace",
         "command": "bracketeer.removeBrackets"
     },
+    {
+        "key": "ctrl+alt+e",
+        "command": "extension.multiCommand.execute",
+        "args": {
+            "sequence": [
+                "editor.action.addSelectionToNextFindMatch",
+                "editor.action.rename"
+            ]
+        }
+    }
 ]
