@@ -1,0 +1,78 @@
+{
+    "json.validate.enable": false,
+    // Editor setting
+    "editor.fontSize": 13,
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.fontWeight": "normal",
+    "terminal.integrated.fontFamily": "Cascadia",
+    // VSCode Window setting
+    "window.zoomLevel": 3,
+    "workbench.colorTheme": "Tokyo Night Storm",
+    "workbench.colorCustomizations": {
+        "[Tokyo Night Storm]": { // or "[Tokyo Night Storm]"
+            "editorCodeLens.foreground": "#7982a9" // Preferred hex color
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[Tokyo Night Storm]": {
+            "textMateRules": [
+                // {
+                //     "scope": [
+                //         "meta.method-call",
+                //     ],
+                //     "settings": {
+                //         "foreground": "#c5a444"
+                //     }
+                // },
+                {
+                    "scope": [
+                        "variable.other.object.property"
+                    ],
+                    "settings": {
+                        "foreground": "#4dcd8f"
+                    }
+                },
+                {
+                    "scope": "constant.other",
+                    "settings": {
+                        "foreground": "#e3da60"
+                    }
+                },
+                {
+                    "scope": "variable",
+                    "settings": {
+                        "foreground": "#31cfb2"
+                    }
+                },
+                {
+                    "scope": "storage.type",
+                    "settings": {
+                        "foreground": "#5db0ef"
+                    }
+                },
+                {
+                    "scope": "storage.other",
+                    "settings": {
+                        "foreground": "#ef5d5d"
+                    }
+                }
+            ]
+        }
+    },
+   
+    "workbench.iconTheme": "material-icon-theme",
+    // Terminal setting
+    "background.enabled": true,
+    "background.useFront": false,
+    "background.fullscreen": {
+        "images": [
+            "https://images.wallpaperscraft.com/image/single/planet_galaxy_universe_121293_3840x2160.jpg"
+        ], // url of your image
+        // "image": ["https://pathtoimage.png"], // An array may be useful when set interval for carousel
+        "opacity": 0.89, // 0.85 ~ 0.95 recommended
+        "size": "cover", // also css, `cover` to self-adaption (recommended)，or `contain`、`200px 200px`
+        "position": "center", // alias to `background-position`, default `center`
+        "interval": 0 // seconds of interval for carousel, default `0` to disabled.
+    },
+    "editor.minimap.enabled": false
+}
